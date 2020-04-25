@@ -8,11 +8,11 @@ img { border: 0; }
 
 .hd{
     position: fixed;
-    width: 1120px;
+    width: 1180px;
     top: 30px;
     z-index: 9999;
     left:50%;
-    margin-left: -560px;
+    margin-left: -590px;
     padding: 30px;
     background:rgba(255,255,255,0.75);
     border-radius: 25px;
