@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+* { margin: 0; padding: 0; }
+body, html { width: 100%; font-family: 'Noto Sans KR', sans-serif; }
+ul { list-style: none; }
+a { text-decoration: none; }
+img { border: 0; }
+
+.hd {
+    margin:16px auto;
+    width: 1205px;
+    padding: 30px;
+    height: 54px;
+    border-radius:14px; 
+    background:rgba(255,255,255,0.75);
+    position:fixed;
+    top:5px; 
+    left:50%;
+    margin-left: -602px; 
+    z-index:9999;
+}
+.tlogo { float: left; display:block; width: 124px; height: auto; 
+}
+.tlogo img { width: 100%; display:block; }
+
+.gnb { float:left; margin-left: 25px; }
+
+.gnb ul li{
+    float: left;
+}
+
+.gnb ul li a{
+    display: block;
+    padding:24px;
+    font-size:16px;
+    color: #333333; 
+    background-color:transparent;
+}
+
+.gnb ul li a:hover{
+    background-color:#f54a7e;
+    color:#fff;
+}
+
+.tnb { float:left; padding-left:25px;  }
+.tnb li { float:left; }
+.tnb ul li a{
+    display: block;
+    padding:26px 18px;
+    font-size:14px;
+    color: #333333;
+}
+.tnb ul li a:hover { color:#f54a7e }
+
+.snb { float:right; }
+.snb li { float:left; }
+.snb ul li a {
+    display: block;
+    width:25px;
+    height:24px;
+    margin:26px 12px; 
+    text-indent:-9999px;
+    background-image:url("./image/ico_footer_sns_new.png");
+    background-repeat: no-repeat;
+}
+.snb ul li a.fb { 
+    background-position:0px 0px; 
+}
+.snb ul li a.ut { 
+    background-position:-25px 0px; 
+}
+.snb ul li a.is { 
+    width: 26px;
+    background-position:-50px 0px; 
+}
+.snb ul li a:hover {
+    background-image:url("./image/ico_footer_sns_new_on.png");
+}
+
+.contents { 
+    clear:both;
+    width:100%; 
+}
+.visual {
+    clear:both;
+    width: 100%;
+    height:100vh;
+/*    overflow:hidden;*/
+}
+.img_box {
+    width: 400%;
+    height: 100vh;
+}
+.img_box li {
+    width: 25%;
+    height:50vh;
+    padding-top:30vh;
+    padding-bottom:20vh; 
+    float:left;
+    background-repeat: no-repeat;
+    background-position: center 40%;
+    background-size:auto;
+}
+.img_box li.item1 {
+    background-image:url("./image/vs1.jpg");
+    background-color:#b3d7f9;
+}
+.img_box li.item2 {
+    background-image:url("./image/vs2.jpg");
+    background-color:#f2d7e0;
+}
+.img_box li.item3 {
+    background-image:url("./image/vs3.jpg");
+    background-color:#fbd3c9;
+}
+.img_box li.item4 {
+    background-image:url("./image/vs4.jpg");
+    background-color:#c0d2e0;
+}

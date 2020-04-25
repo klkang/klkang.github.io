@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+.contents{
+    height: 1000px;
+}
+
+.page_tit{
+    margin-top: 200px;
+    font-size: 30px;
+    margin-left: 50%;
+
+}
+
+.cir{
+  position: absolute;
+  top: -3px;
+  margin-left: -7px;
+  z-index: -999;
+  height: 25px;
+  width: 50px;
+  background-color: #feafbf;
+  border-radius: 25px 25px 25px 25px;
+}
+
+.cat{
+    font-size: 13px;
+    color: #fff;
+}
+
+.rd_txt{
+    color: #ef426f;
+}
+
+.tit1{
+    line-height: 4;
+    font-size: 20px;
+    font-weight: 100;
+    color: #000;
+}
+
+.tit2{
+    font-weight: 300;
+    color: #000;
+}
+
+.price1{
+    color: #000;
+}
+
+.price1{
+    line-height: 10;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.pro_lst{
+    left: 50%;
+    margin-left: 300px;
+    margin-bottom: 300px;
+}
+
+.box{
+    padding-top: 60px;
+    float: left;
+    padding-right: 300px;
+    width: 400px;
+    padding-bottom: 60px;
+}
+    
+a .lem{
+    position: relative;
+
+}
+
+.pic_box{
+    float: left;
+}
+
+.tit_box{
+    position: absolute;
+    margin-left: 300px;
+    float: left;
+    width: 300px;
+    
+}
+
+#sec{
+    clear: both;
+    display: inline-block;
+}
